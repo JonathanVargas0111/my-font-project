@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cómo usar fuentes en Next.js: guía completa 13.5
 
-## Getting Started
+Este repositorio contiene ejemplos y guías detalladas para gestionar eficazmente fuentes en proyectos desarrollados con Next.js. Aprende a incorporar fuentes locales y personalizadas, aplicarlas con Tailwind CSS, optimizar la precarga basada en rutas y reutilizar fuentes de manera eficiente.
 
-First, run the development server:
+## Resumen
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Configura Next.js y la biblioteca `next/font` para comenzar a trabajar con fuentes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Aprende a utilizar múltiples fuentes en tu proyecto.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Optimiza la carga de fuentes pre-cargándolas solo en rutas específicas.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Evita la redundancia en la carga de fuentes mediante la reutilización.
 
-## Learn More
+Para obtener explicaciones detalladas y ejemplos completos, consulta [el artículo completo](#https://medium.com/@jonathanvargas_61788/c%C3%B3mo-usar-fuentes-en-next-js-gu%C3%ADa-completa-13-5-053eb1ed7a7f) en nuestro blog.
 
-To learn more about Next.js, take a look at the following resources:
+## Ejemplo de Varias Fuentes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Si deseas ver ejemplos detallados de cómo trabajar con varias fuentes en tu proyecto Next.js, visita [este enlace](#https://medium.com/@jonathanvargas_61788/c%C3%B3mo-usar-fuentes-en-next-js-gu%C3%ADa-completa-13-5-053eb1ed7a7f) para acceder al artículo completo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Cómo Ver los Ejemplos en Funcionamiento
 
-## Deploy on Vercel
+Para ver los ejemplos en funcionamiento, sigue estos sencillos pasos:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`git clone https://github.com/JonathanVargas0111/my-font-project.git`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`cd my-font-project`
+
+`npm install`
+
+`npm run dev`
+
+Abre tu navegador y visita `http://localhost:3000` para explorar los ejemplos.
+
+¡Listo! Ahora puedes ver los ejemplos de gestión de fuentes en Next.js en tu máquina local.
+
+---
+
+¡Mejora la estética y el rendimiento de tu sitio web con una gestión eficiente de fuentes en Next.js!
+
+### ¡Mantente en Contacto!
+
+Si te ha gustado este artículo y deseas seguir explorando mi contenido, puedes encontrarme en las siguientes redes sociales y visitar mi sitio web:
+
+- **Twitter:** [@jonathanfva92](https://twitter.com/jonathanfva92)
+
+- **LinkedIn:** [Jonathan Felipe Vargas Arias](https://www.linkedin.com/in/jonathan-felipe-vargas-arias/)
+
+- **Sitio Web:** [devjonathanvargas.website](https://devjonathanvargas.website)
+
+- **Medium:** [@jonathanvargas_61788](https://medium.com/@jonathanvargas_61788)
+
+¡Espero verte en mis redes sociales y en mi sitio web! No dudes en comentar, preguntar o compartir tus pensamientos sobre este artículo. ¡Tu retroalimentación es muy valiosa!
